@@ -8,6 +8,7 @@ export default {
         white: "#EEEEEC",
         "white-ascii": "#E0DFFE",
         yellow: "#FFC53D",
+        "color-terminal": "#111927",
       },
     },
   },
