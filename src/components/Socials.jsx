@@ -1,8 +1,8 @@
 export default function Socials() {
   const socials = [
-    { socialName: "github", link: "https://github.com/CyrilPerrinjaquet" },
+    { socialName: "Github", link: "https://github.com/CyrilPerrinjaquet" },
     {
-      socialName: "linkedin",
+      socialName: "Linkedin",
       link: "https://www.linkedin.com/in/cyril-perrinjaquet-a5517626a/",
     },
   ];
