@@ -18,7 +18,7 @@ export default function Socials() {
           >
             <span className="text-green">{socialName}</span>
             <span>
-              <a href={link} className="hover:text-hover-color">
+              <a href={link} target="_blank" rel="noreferrer" className="hover:text-hover-color">
                 {socialName}/CyrilPerrinjaquet
               </a>
             </span>
