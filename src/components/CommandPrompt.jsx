@@ -8,7 +8,7 @@ export default function CommandPrompt() {
   const [commandHistory, setCommandHistory] = useState([]);
   const inputRef = useRef(null);
   const formRef = useRef(null);
-  const commandsArray = ["help", "socials"];
+  const commandsArray = ["help", "socials", "email"];
 
   useEffect(() => {
     document.addEventListener("click", handleDocumentClick);
@@ -30,6 +30,14 @@ export default function CommandPrompt() {
     setInputValue(event.target.value);
   };
 
+  const clearTerminal = () => {
+    const commandHistoryCopy = [...commandHistory];
+    for (let i = 0; i < commandHistoryCopy.length; i++) {
+      commandHistoryCopy.shift();
+    }
+    setCommandHistory([...commandHistoryCopy]);
+  };
+
   return (
     <div>
       {commandHistory.map((commandTyped, index) => {
@@ -37,8 +45,10 @@ export default function CommandPrompt() {
           (command) => command === commandTyped
         );
 
-        // Equivalent of if/else if/else
-        return (
+        // TODO See if it better to do that way, or to do the ol' way
+        return commandTyped === "clear" ? (
+          clearTerminal(index)
+        ) : (
           <div key={`container-${index}`}>
             {!commandTyped ? (
               <TerminalPrompt command={""} />
