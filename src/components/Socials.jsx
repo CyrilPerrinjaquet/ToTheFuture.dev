@@ -9,16 +9,18 @@ export default function Socials() {
 
   return (
     <div className="text-white">
-      Here is my socials :
+      <p className="mb-5">Here is my socials :</p>
       {socials.map(({ socialName, link }, index) => {
         return (
           <div
             key={`${socialName}-${index}`}
-            className="grid grid-cols-2 max-w-xs"
+            className="grid grid-cols-2 max-w-sm"
           >
             <span className="text-green">{socialName}</span>
             <span>
-              <a href={link}>{socialName}/CyrilPerrinjaquet</a>
+              <a href={link} className="hover:text-hover-color">
+                {socialName}/CyrilPerrinjaquet
+              </a>
             </span>
           </div>
         );

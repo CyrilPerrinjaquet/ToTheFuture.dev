@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Output from "./Output";
-import TerminalPrompt from "./TerminalPrompt";
+import TerminalPrompt from "./Prompt";
 import CommandNotFound from "./CommandNotFound";
 
 export default function CommandPrompt() {
@@ -73,7 +73,7 @@ export default function CommandPrompt() {
           <label htmlFor="command-prompt-input">
             <span className="text-yellow">visitor</span>
             <span className="text-white">@</span>
-            <span className="text-green">tothefuture.dev</span>
+            <span className="text-blue">tothefuture.dev</span>
             <span className="text-white">:~$</span>
           </label>
           <input

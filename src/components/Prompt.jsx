@@ -5,7 +5,7 @@ export default function TerminalPrompt({ command }) {
       <label htmlFor="command-prompt-input">
         <span className="text-yellow">visitor</span>
         <span className="text-white">@</span>
-        <span className="text-green">tothefuture.dev</span>
+        <span className="text-blue">tothefuture.dev</span>
         <span className="text-white">:~$</span>
       </label>
       <input
