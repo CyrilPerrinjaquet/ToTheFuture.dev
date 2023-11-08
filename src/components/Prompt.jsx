@@ -12,7 +12,7 @@ export default function TerminalPrompt({ command }) {
         type="text"
         disabled
         value={command}
-        className="bg-transparent text-green outline-none border-none pl-2"
+        className="bg-transparent text-green outline-none border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2"
       />
     </div>
   );

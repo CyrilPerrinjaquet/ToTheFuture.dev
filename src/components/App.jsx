@@ -3,7 +3,7 @@ import CommandPrompt from "./CommandPrompt";
 
 function App() {
   return (
-    <div className="ml-4">
+    <div className="ml-4 smartphones:mt-5">
       <Banner />
       <p className="text-white mb-2">
         Welcome to my website terminal, serving as a linktree/portfolio.

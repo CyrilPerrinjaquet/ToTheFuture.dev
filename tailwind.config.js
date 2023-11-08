@@ -3,6 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        smartphones: { max: "767px" },
+        "small-smartphones": { max: "300px" },
+        desktop: { min: "1024px" },
+        laptop: { min: "768px", max: "1023px" },
+      },
       fontFamily: {
         "fira-mono": "'Fira Mono', monospace;",
       },
