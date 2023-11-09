@@ -57,15 +57,9 @@ export default function CommandPrompt() {
             {!commandTyped ? (
               <Prompt command={""} />
             ) : validCommand ? (
-              <>
-                <Prompt command={commandTyped} />
-                <Output commandTyped={commandTyped} />{" "}
-              </>
+              <Output commandTyped={commandTyped} />
             ) : (
-              <>
-                <Prompt command={commandTyped} />
-                <CommandNotFound command={commandTyped} />
-              </>
+              <CommandNotFound command={commandTyped} />
             )}
           </div>
         );

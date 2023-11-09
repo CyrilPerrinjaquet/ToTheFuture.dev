@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-export default function TerminalPrompt({ command }) {
+export default function Prompt({ command }) {
   return (
     <div className="mb-5">
       <label htmlFor="command-prompt-input">
