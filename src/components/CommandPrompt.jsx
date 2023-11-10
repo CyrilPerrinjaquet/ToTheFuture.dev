@@ -8,7 +8,7 @@ export default function CommandPrompt() {
   const [commandHistory, setCommandHistory] = useState([]);
   const inputRef = useRef(null);
   const containerRef = useRef(null);
-  const commandsArray = ["help", "socials", "email"];
+  const commandsArray = ["help", "socials", "email", "whois", "whoami"];
 
   useEffect(() => {
     document.addEventListener("click", handleDocumentClick);
