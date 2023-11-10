@@ -9,6 +9,8 @@ export default function Help() {
       <span>- Who are you ?</span>
       <span className="text-green">socials</span>
       <span>- View socials</span>
+      <span className="text-green">banner</span>
+      <span>- Display banner</span>
       <span className="text-green">clear</span>
       <span>- Clear the terminal</span>
       <span className="text-green">email</span>

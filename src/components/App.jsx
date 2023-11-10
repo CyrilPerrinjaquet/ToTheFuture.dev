@@ -1,5 +1,5 @@
-import Banner from "./Banner";
-import CommandPrompt from "./CommandPrompt";
+import Banner from "./Commands/Banner";
+import Terminal from "./Terminal";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         Feel free to contact me, for more informations type{" "}
         <span className="text-green">`help`</span>
       </p>
-      <CommandPrompt />
+      <Terminal />
     </div>
   );
 }

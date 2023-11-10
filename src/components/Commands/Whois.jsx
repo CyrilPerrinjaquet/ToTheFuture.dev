@@ -7,12 +7,12 @@ export default function Whois() {
         Switzerland.
       </p>
       <p>
-        I started coding at age of 15 since the beginning of my apprenticeship,
+        Started coding at age of 15 since the beginning of my apprenticeship,
         and never stopped since then!
       </p>
       <p>
-        I am currently working on the website of my company + learning JS/React
-        on behalf and making fun projects like this one :)
+        Currently working on the website of my company + learning JS/React on
+        behalf and making fun projects like this one :)
       </p>
       <p>
         {`Don't`} hesistate to reach me by mail, linkedin, by the{" "}

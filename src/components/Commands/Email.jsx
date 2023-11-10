@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function Email() {
   useEffect(() => {
     setTimeout(() => {
-      window.open("mailto:contact@tothefuture.dev");
+      window.open("mailto:contact@tothefuture.dev", "_parent");
     }, 200);
   }, []);
 
