@@ -8,7 +8,14 @@ export default function CommandPrompt() {
   const [commandHistory, setCommandHistory] = useState([]);
   const inputRef = useRef(null);
   const containerRef = useRef(null);
-  const commandsArray = ["help", "socials", "email", "whois", "whoami", "banner"];
+  const commandsArray = [
+    "help",
+    "socials",
+    "email",
+    "whois",
+    "whoami",
+    "banner",
+  ];
 
   useEffect(() => {
     document.addEventListener("click", handleDocumentClick);
@@ -17,7 +24,9 @@ export default function CommandPrompt() {
   }, [containerRef]);
 
   useEffect(() => {
-    inputRef.current.scrollIntoView({ behavior: "smooth" });
+    if (commandHistory.length > 1) {
+      inputRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   });
 
   const handleDocumentClick = () => {
@@ -80,7 +89,7 @@ export default function CommandPrompt() {
             onChange={handleChange}
             ref={inputRef}
             value={inputValue}
-            className="bg-transparent outline-none text-green border-none pl-2 smartphones:w-16 small-smartphones:pl-0"
+            className="bg-transparent outline-none text-green border-none pl-2 smartphones:w-20 small-smartphones:pl-0"
           />
         </form>
       </div>
