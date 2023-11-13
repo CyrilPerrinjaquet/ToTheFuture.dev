@@ -18,7 +18,7 @@ export default function Output({ commandTyped }) {
           email: <Email />,
           whois: <Whois />,
           whoami: <Whoami />,
-          banner: <Banner />
+          banner: <Banner />,
         }[commandTyped]
       }
     </div>
