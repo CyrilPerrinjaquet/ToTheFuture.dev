@@ -24,6 +24,7 @@ export default function CommandPrompt() {
   }, [containerRef]);
 
   useEffect(() => {
+    // Omit the first command because it is usually not necessary and in most cases : 'help'
     if (commandHistory.length > 1) {
       inputRef.current.scrollIntoView({ behavior: "smooth" });
     }
