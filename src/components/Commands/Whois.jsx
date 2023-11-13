@@ -15,7 +15,7 @@ export default function Whois() {
         behalf and making fun projects like this one :)
       </p>
       <p>
-        {`Don't`} hesitate to reach me by mail and linkedin, using the{" "}
+        {`Don't`} hesitate to reach me by mail or linkedin, using the{" "}
         <span className="dark:text-green-dark-mode text-green-light-mode">
           `mail`
         </span>{" "}
