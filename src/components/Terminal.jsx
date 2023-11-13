@@ -31,7 +31,7 @@ export default function CommandPrompt() {
   });
 
   const handleDocumentClick = () => {
-     inputRef.current.focus();
+    inputRef.current.focus();
   };
 
   const handleSubmit = (event) => {
@@ -59,7 +59,6 @@ export default function CommandPrompt() {
           (command) => command === commandTyped
         );
 
-        // TODO See if it better to do that way, or to do the ol' way
         return commandTyped === "clear" ? (
           clearTerminal(index)
         ) : (

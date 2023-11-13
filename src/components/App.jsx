@@ -1,10 +1,10 @@
-import Banner from "./Commands/Banner";
+import Header from "./Header";
 import Terminal from "./Terminal";
 
 function App() {
   return (
     <div className="ml-4 smartphones:mt-5">
-      <Banner />
+      <Header />
       <p className="text-white mb-2">
         Welcome to my website terminal, serving as a linktree/portfolio.
       </p>

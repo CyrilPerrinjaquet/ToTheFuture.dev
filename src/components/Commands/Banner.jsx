@@ -1,8 +1,7 @@
 export default function Banner() {
   return (
-    <div>
-      <pre className="text-white-ascii smartphones:hidden">
-        {`   
+    <pre className="text-white-ascii smartphones:hidden">
+      {`   
 ████████╗ ██████╗     ████████╗██╗  ██╗███████╗   
 ╚══██╔══╝██╔═══██╗    ╚══██╔══╝██║  ██║██╔════╝    
    ██║   ██║   ██║       ██║   ███████║█████╗      
@@ -17,7 +16,6 @@ export default function Banner() {
 ██║     ╚██████╔╝   ██║   ╚██████╔╝██║  ██║███████╗
 ╚═╝      ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝
     `}
-      </pre>
-    </div>
+    </pre>
   );
 }
