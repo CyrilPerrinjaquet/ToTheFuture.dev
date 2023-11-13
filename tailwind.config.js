@@ -6,7 +6,7 @@ export default {
     extend: {
       screens: {
         smartphones: { max: "767px" },
-        "small-smartphones": { max: "300px" },
+        "small-smartphones": { max: "330px" },
         desktop: { min: "1024px" },
         laptop: { min: "768px", max: "1023px" },
       },

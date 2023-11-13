@@ -15,9 +15,9 @@ export default function Header() {
   }, [themeMode]);
 
   return (
-    <div className="flex justify-between items-start">
+    <div className="flex justify-between items-start smartphones:justify-end">
       <Banner />
-      <div className="m-7">
+      <div className="m-7 smartphones:m-2">
         <button
           className="dark:bg-white bg-black p-2 rounded-md"
           onClick={() =>

@@ -13,7 +13,7 @@ export default function Prompt({ command }) {
         disabled
         id="command-prompt-input"
         value={command}
-        className="bg-transparent dark:text-green-dark-mode text-green-light-mode outline-none border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2 small-smartphones:pl-0"
+        className="bg-transparent dark:text-green-dark-mode text-green-light-mode outline-none border-none desktop:pl-2 laptop:pl-2 smartphones:w-24 smartphones:pl-2 small-smartphones:pl-0"
       />
     </div>
   );

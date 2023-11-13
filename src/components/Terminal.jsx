@@ -91,7 +91,7 @@ export default function CommandPrompt() {
             onChange={handleChange}
             ref={inputRef}
             value={inputValue}
-            className="bg-transparent outline-none dark:text-green-dark-mode text-green-light-mode border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2 small-smartphones:pl-0"
+            className="bg-transparent outline-none dark:text-green-dark-mode text-green-light-mode border-none desktop:pl-2 laptop:pl-2 smartphones:w-24 smartphones:pl-2 small-smartphones:pl-0"
           />
         </form>
       </div>

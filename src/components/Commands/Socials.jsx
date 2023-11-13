@@ -14,9 +14,9 @@ export default function Socials() {
         return (
           <div
             key={`${socialName}-${index}`}
-            className="grid grid-cols-2 max-w-sm"
+            className="grid grid-cols-2 max-w-sm smartphones:grid-cols-1 small-smartphones:grid-cols-1 small-smartphones:mb-5 smartphones:mb-5"
           >
-            <span className="dark:text-green-dark-mode text-green-light-mode">{socialName}</span>
+            <span className="dark:text-green-dark-mode text-green-light-mode ">{socialName} :</span>
             <span>
               <a href={link} target="_blank" rel="noreferrer" className="hover:text-hover-color">
                 {socialName}/CyrilPerrinjaquet
