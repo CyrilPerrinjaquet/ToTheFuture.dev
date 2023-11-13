@@ -20,7 +20,7 @@ export default function Header() {
       <div className="m-7 smartphones:m-2">
         <button
           className="dark:bg-white bg-black p-2 rounded-md"
-          name="switch-light-mode-dark-mode-button"
+          aria-label="Switch between modes button, light mode and dark mode are available"
           onClick={() =>
             themeMode === "dark" ? setThemeMode("light") : setThemeMode("dark")
           }
