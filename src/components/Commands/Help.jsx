@@ -9,8 +9,6 @@ export default function Help() {
     { commandName: "email", description: "Email me" },
   ];
 
-  console.log(commandsExecutableAndDescription);
-
   return (
     <>
       {commandsExecutableAndDescription.map(({ commandName, description }, index) => {
