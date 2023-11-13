@@ -31,7 +31,7 @@ export default function CommandPrompt() {
   });
 
   const handleDocumentClick = () => {
-    inputRef.current && inputRef.current.focus();
+     inputRef.current.focus();
   };
 
   const handleSubmit = (event) => {
@@ -90,7 +90,7 @@ export default function CommandPrompt() {
             onChange={handleChange}
             ref={inputRef}
             value={inputValue}
-            className="bg-transparent outline-none text-green border-none pl-2 smartphones:w-20 small-smartphones:pl-0"
+            className="bg-transparent outline-none text-green border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2 small-smartphones:pl-0"
           />
         </form>
       </div>

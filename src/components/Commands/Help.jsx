@@ -1,6 +1,6 @@
 export default function Help() {
   return (
-    <div className="text-white mt-6 grid grid-cols-2 max-w-sm">
+    <div className="text-white grid grid-cols-2 max-w-sm">
       <span className="text-green">help</span>
       <span>- If your lost</span>
       <span className="text-green">whois</span>
