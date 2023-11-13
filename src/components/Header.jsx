@@ -20,6 +20,7 @@ export default function Header() {
       <div className="m-7 smartphones:m-2">
         <button
           className="dark:bg-white bg-black p-2 rounded-md"
+          name="switch-light-mode-dark-mode-button"
           onClick={() =>
             themeMode === "dark" ? setThemeMode("light") : setThemeMode("dark")
           }
