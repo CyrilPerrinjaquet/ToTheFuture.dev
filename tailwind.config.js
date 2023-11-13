@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       screens: {
@@ -14,13 +14,18 @@ export default {
         "fira-mono": "'Fira Mono', monospace;",
       },
       colors: {
-        green: "#00C895",
-        blue: "#00C6CD",
-        white: "#EEEEEC",
-        "white-ascii": "#9E5B6D",
-        yellow: "#F49431",
-        "color-terminal": "#25242D",
+        "green-light-mode": "#46A758",
+        "green-dark-mode": "#00C895",
+        "blue-light-mode": "#207D76",
+        "blue-dark-mode": "#00C6CD",
+        "banner-ascii-light-mode": "#BC5A41",
+        "banner-ascii-dark-mode": "#9E5B6D",
+        "color-terminal-light-mode": "#FAF3D2",
+        "color-terminal-dark-mode": "#25242D",
         "hover-color": "#8585F0",
+        pink: "#CA337C",
+        orange: "#F49431",
+        white: "#EEEEEC",
       },
     },
   },

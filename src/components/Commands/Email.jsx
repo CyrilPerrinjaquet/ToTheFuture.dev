@@ -8,5 +8,7 @@ export default function Email() {
     }, 200);
   }, []);
 
-  return <div className="text-white">contact@tothefuture.dev</div>;
+  return (
+    <div className="dark:text-white text-black">contact@tothefuture.dev</div>
+  );
 }

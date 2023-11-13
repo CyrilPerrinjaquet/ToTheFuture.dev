@@ -78,10 +78,12 @@ export default function CommandPrompt() {
         {/* I don't want to overload the TerminalPrompt Component with lots of props */}
         <form onSubmit={handleSubmit}>
           <label htmlFor="command-prompt-input">
-            <span className="text-yellow">visitor</span>
-            <span className="text-white">@</span>
-            <span className="text-blue">tothefuture</span>
-            <span className="text-white">:~$</span>
+            <span className="dark:text-orange text-pink">visitor</span>
+            <span className="dark:text-white text-black">@</span>
+            <span className="dark:text-blue-dark-mode text-blue-light-mode">
+              tothefuture
+            </span>
+            <span className="dark:text-white text-black">:~$</span>
           </label>
           <input
             type="text"
@@ -89,7 +91,7 @@ export default function CommandPrompt() {
             onChange={handleChange}
             ref={inputRef}
             value={inputValue}
-            className="bg-transparent outline-none text-green border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2 small-smartphones:pl-0"
+            className="bg-transparent outline-none dark:text-green-dark-mode text-green-light-mode border-none desktop:pl-2 laptop:pl-2 smartphones:w-16 smartphones:pl-2 small-smartphones:pl-0"
           />
         </form>
       </div>

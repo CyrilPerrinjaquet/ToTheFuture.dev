@@ -1,6 +1,6 @@
 export default function Whois() {
   return (
-    <div className="text-white">
+    <div className="dark:text-white text-black">
       Hello there!
       <p className="mt-2">
         I am Cyril, front-end/back-end apprentice at a company based in
@@ -16,8 +16,8 @@ export default function Whois() {
       </p>
       <p>
         {`Don't`} hesitate to reach me by mail, linkedin, by the{" "}
-        <span className="text-green">`mail`</span> and{" "}
-        <span className="text-green">`socials`</span> commands respectively,{" "}
+        <span className="dark:text-green-dark-mode text-green-light-mode">`mail`</span> and{" "}
+        <span className="dark:text-green-dark-mode text-green-light-mode">`socials`</span> commands respectively,{" "}
         {`I'll`} be happy to answer your question/thoughts!
       </p>
     </div>

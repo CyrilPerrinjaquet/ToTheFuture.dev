@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <pre className="text-white-ascii smartphones:hidden">
+    <pre className="dark:text-banner-ascii-dark-mode text-banner-ascii-light-mode smartphones:hidden">
       {`   
 ████████╗ ██████╗     ████████╗██╗  ██╗███████╗   
 ╚══██╔══╝██╔═══██╗    ╚══██╔══╝██║  ██║██╔════╝    

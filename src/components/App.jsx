@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="ml-4 smartphones:mt-5">
       <Header />
-      <p className="text-white mb-2">
+      <p className="dark:text-white text-black mb-2">
         Welcome to my website terminal, serving as a linktree/portfolio.
       </p>
-      <p className="text-white mb-5">
+      <p className="dark:text-white text-black mb-5">
         Feel free to contact me, for more informations type{" "}
-        <span className="text-green">`help`</span>
+        <span className="dark:text-green-dark-mode text-green-light-mode">`help`</span>
       </p>
       <Terminal />
     </div>

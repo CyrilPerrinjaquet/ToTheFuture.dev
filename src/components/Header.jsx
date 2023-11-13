@@ -7,10 +7,10 @@ export default function Header() {
   const [themeMode, setThemeMode] = useLocalStorageState("theme", "dark");
 
   useEffect(() => {
-    if (themeMode === "light") {
-      document.documentElement.classList.remove("dark");
-    } else {
+    if (themeMode === "dark") {
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
   }, [themeMode]);
 
@@ -19,15 +19,15 @@ export default function Header() {
       <Banner />
       <div className="m-7">
         <button
-          className="bg-white p-2 rounded-md"
+          className="dark:bg-white bg-black p-2 rounded-md"
           onClick={() =>
             themeMode === "dark" ? setThemeMode("light") : setThemeMode("dark")
           }
         >
           {themeMode === "dark" ? (
-            <FaMoon size={24} />
+            <FaMoon size={24} color="black" />
           ) : (
-            <FaLightbulb size={24} />
+            <FaLightbulb size={24} color="white"/>
           )}
         </button>
       </div>
