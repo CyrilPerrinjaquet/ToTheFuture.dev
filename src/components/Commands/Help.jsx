@@ -1,6 +1,6 @@
 export default function Help() {
   const commandsExecutableAndDescription = [
-    { commandName: "help", description: "If your lost" },
+    { commandName: "help", description: "If you're lost" },
     { commandName: "whois", description: "Who is Cyril ?" },
     { commandName: "whoami", description: "Who are you ?" },
     { commandName: "socials", description: "View socials" },
