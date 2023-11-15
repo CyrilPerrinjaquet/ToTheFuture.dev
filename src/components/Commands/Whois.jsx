@@ -17,7 +17,7 @@ export default function Whois() {
       <p>
         {`Don't`} hesitate to reach me by mail or linkedin, using the{" "}
         <span className="dark:text-green-dark-mode text-green-light-mode">
-          `mail`
+          `email`
         </span>{" "}
         and{" "}
         <span className="dark:text-green-dark-mode text-green-light-mode">
