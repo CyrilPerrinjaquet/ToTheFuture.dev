@@ -55,6 +55,7 @@ export default function CommandPrompt() {
   return (
     <div>
       {commandHistory.map((commandTyped, index) => {
+        commandTyped = commandTyped.toLowerCase().trim();
         const validCommand = commandsArray.find(
           (command) => command === commandTyped
         );
