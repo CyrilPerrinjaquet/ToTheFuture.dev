@@ -7,20 +7,26 @@ export default function Help() {
     { commandName: "banner", description: "Display banner" },
     { commandName: "clear", description: "Clear the terminal" },
     { commandName: "email", description: "Email me" },
+    { commandName: "exit", description: "Exit current window" },
   ];
 
   return (
     <>
-      {commandsExecutableAndDescription.map(({ commandName, description }, index) => {
-        return (
-          <div key={`${commandName}-${index}`} className="dark:text-white text-black grid grid-cols-2 max-w-sm">
-            <span className="dark:text-green-dark-mode text-green-light-mode">
-              {commandName}
-            </span>
-            <span>- {description}</span>
-          </div>
-        );
-      })}
-      </>
+      {commandsExecutableAndDescription.map(
+        ({ commandName, description }, index) => {
+          return (
+            <div
+              key={`${commandName}-${index}`}
+              className="dark:text-white text-black grid grid-cols-2 max-w-sm"
+            >
+              <span className="dark:text-green-dark-mode text-green-light-mode">
+                {commandName}
+              </span>
+              <span>- {description}</span>
+            </div>
+          );
+        }
+      )}
+    </>
   );
 }
