@@ -24,6 +24,11 @@ export default function CommandPrompt() {
     return () => document.removeEventListener("click", handleDocumentClick);
   }, [containerRef]);
 
+
+  useEffect(() => {
+    window.onload = handleDocumentClick;
+  })
+
   useEffect(() => {
     // Omit the first command because it is usually not necessary and in most cases : 'help'
     if (commandHistory.length > 1) {
@@ -32,7 +37,7 @@ export default function CommandPrompt() {
   });
 
   const handleDocumentClick = () => {
-    inputRef.current.focus();
+    inputRef.current && inputRef.current.focus();
   };
 
   const handleSubmit = (event) => {
