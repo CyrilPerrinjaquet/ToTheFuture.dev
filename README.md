@@ -3,8 +3,7 @@ This project represents my portfolio/linktree for now.
 This is only a fun project and mostly a training one.
 
 Technologies used : 
-- React
-- Tailwind
+- React and Tailwind
 
 You can choose between light mode and dark mode.
 
