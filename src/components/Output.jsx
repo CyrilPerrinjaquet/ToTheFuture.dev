@@ -7,6 +7,7 @@ import Whois from "./Commands/Whois";
 import Whoami from "./Commands/Whoami";
 import Banner from "./Commands/Banner";
 import Exit from "./Commands/Exit";
+import Sudo from "./Commands/Sudo";
 
 export default function Output({ commandTyped }) {
   return (
@@ -20,7 +21,8 @@ export default function Output({ commandTyped }) {
           whois: <Whois />,
           whoami: <Whoami />,
           banner: <Banner />,
-          exit: <Exit />
+          exit: <Exit />,
+          sudo: <Sudo />,
         }[commandTyped]
       }
     </div>

@@ -16,6 +16,7 @@ export default function CommandPrompt() {
     "whoami",
     "banner",
     "exit",
+    "sudo"
   ];
 
   useEffect(() => {
