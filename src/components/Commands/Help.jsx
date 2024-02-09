@@ -7,7 +7,6 @@ export default function Help() {
     { commandName: "banner", description: "Display banner" },
     { commandName: "clear", description: "Clear the terminal" },
     { commandName: "email", description: "Email me" },
-    { commandName: "exit", description: "Exit current window" },
     { commandName: "sudo", description: "Become admin" },
   ];
 

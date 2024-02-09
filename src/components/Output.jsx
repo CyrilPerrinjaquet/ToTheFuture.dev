@@ -6,7 +6,6 @@ import Prompt from "./Prompt";
 import Whois from "./Commands/Whois";
 import Whoami from "./Commands/Whoami";
 import Banner from "./Commands/Banner";
-import Exit from "./Commands/Exit";
 import Sudo from "./Commands/Sudo";
 
 export default function Output({ commandTyped }) {
@@ -21,7 +20,6 @@ export default function Output({ commandTyped }) {
           whois: <Whois />,
           whoami: <Whoami />,
           banner: <Banner />,
-          exit: <Exit />,
           sudo: <Sudo />,
         }[commandTyped]
       }

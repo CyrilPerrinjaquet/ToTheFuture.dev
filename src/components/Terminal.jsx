@@ -15,7 +15,6 @@ export default function CommandPrompt() {
     "whois",
     "whoami",
     "banner",
-    "exit",
     "sudo"
   ];
 
