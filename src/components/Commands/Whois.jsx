@@ -10,7 +10,7 @@ export default function Whois() {
         Started coding at age of 15 since the beginning of my apprenticeship,
         and never stopped since then!
       </p>
-      <p>
+      <p className="mt-3">
         Currently working on the website of my company + learning JS/React on
         behalf and making fun projects like this one :)
       </p>
