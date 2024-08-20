@@ -15,7 +15,8 @@ export default function CommandPrompt() {
     "whois",
     "whoami",
     "banner",
-    "sudo"
+    "sudo",
+    "history",
   ];
 
   useEffect(() => {
@@ -73,7 +74,7 @@ export default function CommandPrompt() {
             {!commandTyped ? (
               <Prompt command={""} />
             ) : validCommand ? (
-              <Output commandTyped={commandTyped} />
+              <Output commandTyped={commandTyped} commandHistory={commandHistory} />
             ) : (
               <CommandNotFound command={commandTyped} />
             )}

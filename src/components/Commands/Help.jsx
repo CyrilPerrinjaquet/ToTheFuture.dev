@@ -8,6 +8,7 @@ export default function Help() {
     { commandName: "clear", description: "Clear the terminal" },
     { commandName: "email", description: "Email me" },
     { commandName: "sudo", description: "Become admin" },
+    { commandName: "history", description: "Show the command history" },
   ];
 
   return (

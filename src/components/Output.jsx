@@ -7,8 +7,9 @@ import Whois from "./Commands/Whois";
 import Whoami from "./Commands/Whoami";
 import Banner from "./Commands/Banner";
 import Sudo from "./Commands/Sudo";
+import History from "./Commands/History";
 
-export default function Output({ commandTyped }) {
+export default function Output({ commandTyped, commandHistory }) {
   return (
     <div className="mb-5">
       <Prompt command={commandTyped} />
@@ -21,6 +22,7 @@ export default function Output({ commandTyped }) {
           whoami: <Whoami />,
           banner: <Banner />,
           sudo: <Sudo />,
+          history: <History commandHistory={commandHistory} />,
         }[commandTyped]
       }
     </div>
