@@ -15,15 +15,11 @@ export default function Whois() {
         behalf and making fun projects like this one :)
       </p>
       <p>
-        {`Don't`} hesitate to reach me by mail or linkedin, using the{" "}
-        <span className="dark:text-green-dark-mode text-green-light-mode">
-          `email`
-        </span>{" "}
-        and{" "}
+        {`Don't`} hesitate to reach me on linkedin, using the{" "}
         <span className="dark:text-green-dark-mode text-green-light-mode">
           `socials`
         </span>{" "}
-        commands respectively, {`I'll`} be happy to answer your
+        command, {`I'll`} be happy to answer your
         question/thoughts!
       </p>
     </div>

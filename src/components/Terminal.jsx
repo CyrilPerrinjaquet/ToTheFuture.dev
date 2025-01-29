@@ -11,7 +11,6 @@ export default function CommandPrompt() {
   const commandsArray = [
     "help",
     "socials",
-    "email",
     "whois",
     "whoami",
     "banner",

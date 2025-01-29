@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import Socials from "./Commands/Socials";
 import Help from "./Commands/Help";
-import Email from "./Commands/Email";
 import Prompt from "./Prompt";
 import Whois from "./Commands/Whois";
 import Whoami from "./Commands/Whoami";
@@ -16,7 +15,6 @@ export default function Output({ commandTyped }) {
         {
           help: <Help />,
           socials: <Socials />,
-          email: <Email />,
           whois: <Whois />,
           whoami: <Whoami />,
           banner: <Banner />,
